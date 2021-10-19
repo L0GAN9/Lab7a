@@ -74,7 +74,7 @@ class Program {
        Console.WriteLine("Enter Hours for " + custnam[i]);
        hours[i] = Convert.ToDouble(Console.ReadLine());
        double charge = CalculateCharges(hours[i]);
-       Console.WriteLine(charge);
+       Console.WriteLine("Parking Charge is $" + charge);
      }
     }
   }
